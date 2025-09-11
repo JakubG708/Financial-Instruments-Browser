@@ -60,3 +60,48 @@ nunit-*.xml
 *.vcxproj.user
 *.dbmdl
 *.jfm
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+.venv/
+*.env
+*.venv
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.log
+
+# VSCode
+.vscode/
+
+# Test/coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Local settings
+*.local
+*.sqlite3
+
+# FastAPI
+instance/
